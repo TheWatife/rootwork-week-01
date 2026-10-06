@@ -1,5 +1,5 @@
 const fname = "Boluwatife";
-const numbers = [7, 83, 25, 51, 77];
+const numbers = [7, 83, 25, 51, 141, 16, 77];
 
 function greeting() {
   return `Hello Rootwork. I'm ${fname}, one of the founding cohort.`;
