@@ -14,5 +14,14 @@ function largest() {
   return biggest;
 }
 
+function parity(polar) {
+  if (polar % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+
 console.log(greeting());
 console.log(largest());
+console.log(parity(72));
