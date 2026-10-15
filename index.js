@@ -65,7 +65,7 @@ function longevity() {
 // }
 
 const age = 18;
-const score = 60;
+const score = 92;
 const hasLaptop = true;
 const hasInternet = true;
 const completedApplication = true;
