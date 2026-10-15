@@ -12,36 +12,44 @@ longevity function was added to check the status of the User's age.
 Assignment 03
 
 Applicant 1
+age = 16, score = 60, hasLaptop = true, hasInternet = true, completedApplication = true
 Expected Result: Not Eligible
 Actual Result: Not Eligible
 
 Applicant 2
+age = 18, score = 47, hasLaptop = true, hasInternet = true, completedApplication = true
 Expected Result: Not Eligible
 Actual Result: Not Eligible
 
 Applicant 3
+age = 28, score = 60, hasLaptop = true, hasInternet = false, completedApplication = true
 Expected Result: Not Eligible
 Actual Result: Not Eligible
 
 Applicant 4
+age = 22, score = 77, hasLaptop = true, hasInternet = true, completedApplication = false
 Expected Result: Not Eligible
 Actual Result: Not Eligible
 
 Applicant 5
+age = 26, score = 60, hasLaptop = false, hasInternet = true, completedApplication = true
 Expected Result: Not Eligible
 Actual Result: Not Eligible
 
 Applicant 6
+age = 18, score = 70, hasLaptop = true, hasInternet = true, completedApplication = true
 Expected Result: Eligible
 Actual Result: Eligible
 
 Applicant 7
+age = 20, score = 60 hasLaptop, = true hasInternet = true, completedApplication = true
 Expected Result: Eligible
 Actual Result: Eligible
 
 Applicant 8
-Expected Result:
-Actual Result:
+age = 27, score = 92, hasLaptop, = true, hasInternet = true, completedApplication = true
+Expected Result: Priority candidate
+Actual Result: Priority candidate
 
 Part 5
 

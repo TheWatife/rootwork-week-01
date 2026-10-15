@@ -1,5 +1,3 @@
-const { Children } = require("react");
-
 const fname = "Boluwatife";
 const numbers = [7, 83, 25, 51, 141, 16, 77];
 
@@ -66,8 +64,8 @@ function longevity() {
 //   console.log("C");
 // }
 
-const age = 17;
-const score = 78;
+const age = 18;
+const score = 60;
 const hasLaptop = true;
 const hasInternet = true;
 const completedApplication = true;
