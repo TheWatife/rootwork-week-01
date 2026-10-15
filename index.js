@@ -98,7 +98,7 @@ if (
     console.log("Eligible");
   }
 } else {
-  console.log("Not Eligible");
+  console.log("Not Eligible!");
 }
 
 // console.log(greeting());
