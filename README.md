@@ -6,3 +6,51 @@ At the end of Rootwork's six month, I want to be able to create functional websi
 My index.js file greets the user with the name stored in the fname variable. It also checks for the largest number by iterating through the array in the "numbers" variable and returns it.
 
 parity function was added to check if a number given is even or odd.
+
+longevity function was added to check the status of the User's age.
+
+Assignment 03
+
+Applicant 1
+Expected Result: Not Eligible
+Actual Result: Not Eligible
+
+Applicant 2
+Expected Result: Not Eligible
+Actual Result: Not Eligible
+
+Applicant 3
+Expected Result: Not Eligible
+Actual Result: Not Eligible
+
+Applicant 4
+Expected Result: Not Eligible
+Actual Result: Not Eligible
+
+Applicant 5
+Expected Result: Not Eligible
+Actual Result: Not Eligible
+
+Applicant 6
+Expected Result: Eligible
+Actual Result: Eligible
+
+Applicant 7
+Expected Result: Eligible
+Actual Result: Eligible
+
+Applicant 8
+Expected Result:
+Actual Result:
+
+Part 5
+
+1. age represents the age of the applicant, score represents the applicant's score, hasInternet and hasLaptop conveys if the applicant has access to internet and a laptop, and completedApplication shows if the applicant has completed his/her application.
+2. If applicant's age is 18 and above, and has a score of at least 60, has access to laptop and internet and has also completed the application then he/she is Eligible.
+   If applicant has a score of 85 and above, he/she is given Priority.
+   If applicant doesn't meet these conditions, he/she is not eligible for admission.
+3. The logical operator I used is &&.
+4. The order of my conditions matter because it'll be interpreted according to hierachy. In my case, all other requirements had to be satisfied before candidates with higher scores of 85 and above can then be picked out.
+5. An applicant with a high score can still fail if he/she doesn't satisfy other requirements.
+6. The difference between && and || id that the former returns true only and only if all (left and right hand side) the conditions are true while the later returns true if at least one condition is true.
+7. I didn't come across any bug/mistake.
