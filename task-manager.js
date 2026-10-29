@@ -24,7 +24,12 @@ const tasks = [
     completed: false,
     priority: "low",
   },
-
+  {
+    title: "Cybersecurity",
+    category: "Ethical Hacking",
+    completed: false,
+    priority: "high",
+  },
   {
     title: "Full-Stack Development",
     category: "API",
