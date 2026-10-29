@@ -14,3 +14,6 @@ The hardest part for me was the category summary.
 
 One thing I would improve:
 I can't really say.
+
+AI Disclosure:
+I used AI to understand the category summary. I accepted the idea of a nested loop.
