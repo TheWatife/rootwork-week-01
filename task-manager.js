@@ -3,8 +3,9 @@ const tasks = [
     title: "Cybersecurity",
     category: "Linux",
     completed: false,
-    priority: "high",
+    priority: "low",
   },
+
   {
     title: "Frontend Development",
     category: "Styling",
@@ -23,6 +24,7 @@ const tasks = [
     completed: false,
     priority: "low",
   },
+
   {
     title: "Full-Stack Development",
     category: "API",
@@ -70,7 +72,12 @@ function priorityTasks() {
   for (let i = 0; i < tasks.length; i++) {
     if (tasks[i].priority === "high" && tasks[i].completed === false) {
       //   highPriority++;
-      console.log(tasks[i]);
+      console.log(`
+        Title: ${tasks[i].title}
+        Category: ${tasks[i].category}
+        Completed: ${tasks[i].completed}
+        Priority: ${tasks[i].priority}
+           `);
     } else {
       ("All priority tasks ahs been completed");
     }
