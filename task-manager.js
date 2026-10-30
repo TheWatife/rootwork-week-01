@@ -27,13 +27,13 @@ const tasks = [
   {
     title: "Cybersecurity",
     category: "Ethical Hacking",
-    completed: false,
+    completed: true,
     priority: "high",
   },
   {
     title: "Full-Stack Development",
     category: "API",
-    completed: false,
+    completed: true,
     priority: "high",
   },
   {
@@ -83,8 +83,8 @@ function priorityTasks() {
         Completed: ${tasks[i].completed}
         Priority: ${tasks[i].priority}
            `);
-    } else {
-      ("All priority tasks ahs been completed");
+    } else if (tasks[i].priority === "high" && tasks[i].completed === true) {
+      console.log("All priority tasks has been completed");
     }
   }
 
@@ -114,9 +114,9 @@ function addedTask() {
   });
 }
 
-tasksAssigned();
-tasksCompleted();
+// tasksAssigned();
+// tasksCompleted();
 priorityTasks();
-categoryTasks();
-addedTask();
-tasksAssigned();
+// categoryTasks();
+// addedTask();
+// tasksAssigned();
