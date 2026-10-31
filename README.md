@@ -5,14 +5,82 @@ At the end of Rootwork's six month, I want to be able to create functional websi
 
 My index.js file greets the user with the name stored in the fname variable. It also checks for the largest number by iterating through the array in the "numbers" variable and returns it.
 
-1. Repository is like a digital cabinet that stores all your files and the changes made to those files.
-2. Terminal is more powerful and you'll be able to better understand things and see them as they run in real time.
-3. Working Directory, Staging Area, Local Repo and the remote repo.
-4. Task Tracker.
-5. Calculate the total calories burnt.
-6. feature/login.
-7. He deletes the branch.
-8. He pulls using git pull origin main.
-9. Files that contains sensitive information like API Keys. In the tutorial .env was added to the .gitignore file.
-10. Vercel.
-11. Getting code from github - forking: 33:21 - 33:50.
+parity function was added to check if a number given is even or odd.
+
+longevity function was added to check the status of the User's age.
+
+Assignment 03
+
+Applicant 1
+age = 16, score = 60, hasLaptop = true, hasInternet = true, completedApplication = true
+Expected Result: Not Eligible
+Actual Result: Not Eligible
+
+Applicant 2
+age = 18, score = 47, hasLaptop = true, hasInternet = true, completedApplication = true
+Expected Result: Not Eligible
+Actual Result: Not Eligible
+
+Applicant 3
+age = 28, score = 60, hasLaptop = true, hasInternet = false, completedApplication = true
+Expected Result: Not Eligible
+Actual Result: Not Eligible
+
+Applicant 4
+age = 22, score = 77, hasLaptop = true, hasInternet = true, completedApplication = false
+Expected Result: Not Eligible
+Actual Result: Not Eligible
+
+Applicant 5
+age = 26, score = 60, hasLaptop = false, hasInternet = true, completedApplication = true
+Expected Result: Not Eligible
+Actual Result: Not Eligible
+
+Applicant 6
+age = 18, score = 70, hasLaptop = true, hasInternet = true, completedApplication = true
+Expected Result: Eligible
+Actual Result: Eligible
+
+Applicant 7
+age = 20, score = 60 hasLaptop, = true hasInternet = true, completedApplication = true
+Expected Result: Eligible
+Actual Result: Eligible
+
+Applicant 8
+age = 27, score = 92, hasLaptop, = true, hasInternet = true, completedApplication = true
+Expected Result: Priority candidate
+Actual Result: Priority candidate
+
+Part 5
+
+1. age represents the age of the applicant, score represents the applicant's score, hasInternet and hasLaptop conveys if the applicant has access to internet and a laptop, and completedApplication shows if the applicant has completed his/her application.
+2. If applicant's age is 18 and above, and has a score of at least 60, has access to laptop and internet and has also completed the application then he/she is Eligible.
+   If applicant has a score of 85 and above, he/she is given Priority.
+   If applicant doesn't meet these conditions, he/she is not eligible for admission.
+3. The logical operator I used is &&.
+4. The order of my conditions matter because it'll be interpreted according to hierachy. In my case, all other requirements had to be satisfied before candidates with higher scores of 85 and above can then be picked out.
+5. An applicant with a high score can still fail if he/she doesn't satisfy other requirements.
+6. The difference between && and || id that the former returns true only and only if all (left and right hand side) the conditions are true while the later returns true if at least one condition is true.
+7. I didn't come across any bug/mistake.
+
+MILESTONE 1
+
+What the program does:
+This program runs a number of functions that logs the tasks, the amount of tasks, completed and pending tasks, uncompleted high-priority tasks, how many tasks in a category and also adds another task to the list of tasks.
+
+How I broke the problem down:
+I used for loops to go through each task to find those that meets the conditions listed above.
+
+A few concepts I used are:
+i. loop: to iterate through arrays. It was used in every function except the one that added added a new task to the array.
+ii. AND comparison operator. It was used to return tasks that were high priority but uncompleted.
+iii. push array methods. It was used to add a task to the existing tasks array.
+
+Hardest part:
+The hardest part for me was the category summary.
+
+One thing I would improve:
+I can't really say.
+
+AI Disclosure:
+I used AI to understand the category summary. I accepted the idea of a nested loop.
