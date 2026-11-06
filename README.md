@@ -90,4 +90,5 @@ This project talks about me. It introduces me with my dislikes and my place of s
 It also consists of a page that summarizes everything about me.
 I used h1 to clearly specify what the project is about, that way, at first glance, an idea is had.
 I also used div to group the projects I listed out
-And br tags to create breaks in my explanantions and increase white space
+And br tags to create breaks in my explanantions and increase white space.
+No AI was used in this project.
