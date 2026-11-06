@@ -27,13 +27,13 @@ const tasks = [
   {
     title: "Cybersecurity",
     category: "Ethical Hacking",
-    completed: true,
+    completed: false,
     priority: "high",
   },
   {
     title: "Full-Stack Development",
     category: "API",
-    completed: true,
+    completed: false,
     priority: "high",
   },
   {
@@ -114,9 +114,9 @@ function addedTask() {
   });
 }
 
-// tasksAssigned();
-// tasksCompleted();
+tasksAssigned();
+tasksCompleted();
 priorityTasks();
-// categoryTasks();
-// addedTask();
-// tasksAssigned();
+categoryTasks();
+addedTask();
+tasksAssigned();
