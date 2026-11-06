@@ -84,3 +84,10 @@ I can't really say.
 
 AI Disclosure:
 I used AI to understand the category summary. I accepted the idea of a nested loop.
+
+HTML Practice
+This project talks about me. It introduces me with my dislikes and my place of study, it lists the names I like to be called and a few skills I may or may not have. It talks about the projects I've worked on and my education while also providing a form which can me used to contact me.
+It also consists of a page that summarizes everything about me.
+I used h1 to clearly specify what the project is about, that way, at first glance, an idea is had.
+I also used div to group the projects I listed out
+And br tags to create breaks in my explanantions and increase white space
