@@ -114,7 +114,36 @@ But do others consider it one? How does that concern me?</p>
       <section>
         <h3>Do you want to contact me? Why?</h3>
         <p>Anyway, you can fill the form below and I'll decode if I want to get to know you</p>
-
+<form action="submit">
+  <label for="firstname">Firstname:</label>
+  <input type="text" placeholder="Boluwatife" id="firstname">
+  <label for="lastname">Lastname:</label>
+  <input type="text" placeholder="surname" id="lastname">
+  <label for="email">Email:</label>
+  <input type="text" placeholder="example@gmail.com" id="email">
+  <fieldset>
+    <legend>What is your reason for contacting me</legend>
+    <p>
+      <input type="radio" name="reason" id="know" value="know">
+      <label for="know">To know me better</label>
+    </p>
+    <p>
+      <input type="radio" name="reason" id="stress" value="stress">
+      <label for="stress">To stress me</label>
+    </p>
+    <p>
+      <input type="radio" name="reason" id="bored" value="bored">
+      <label for="bored">Because I'm bored</label>
+    </p>
+    <p>
+      <input type="radio" name="reason" id="hole" value="hole">
+      <label for="hole">To know more about the hellhole called OAU</label>
+    </p>
+  </fieldset>
+  <label for="message">Convince me to responf to you</label>
+  <textarea name="message" id="message" cols="7" rows="5"></textarea>
+  <br>
+</form>
       </section>
     </main>
     <footer></footer>
