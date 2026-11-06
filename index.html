@@ -4,22 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Personal Profile</title>
+    <Link rel="stylesheet" href="style.css"></Link>
   </head>
   <body>
     <header>
       <nav>
         THE WATIFE
-        <a href="">About</a>
-        <a href="">Contact</a>
-        <a href="">Skills</a>
-        <a href="">Projects</a>
-        <a href="">Education</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
         <a href="">Summary</a>
       </nav>
     </header>
     <main>
-      <section>
-        <h1><strong>INTRODUCTION</strong></h1>
+      <h1><strong>INTRODUCTION</strong></h1>
+      <section id="about">
+        <h2>About Me</h2>
         <p>
           My name so happens to be <em>Boluwatife</em> and if I'm being honest,
           I wasn't a fan of the name in my earlier years but I guess it's mine
@@ -76,7 +78,7 @@
         </p>
       </section>
       <hr>
-      <section>
+      <section id="skills">
         <h2>Skills I Possess</h2>
         <p>I'm not going to lie, I'm quite skill-less. Don't get me wrong, i can do things, but do I consider them a skill?
           <br>
@@ -91,18 +93,18 @@
 But do others consider it one? How does that concern me?</p>
       </section>
       <hr>
-      <section>
+      <section id="projects">
         <h2>Projects I've Worked On</h2>
         <p>I've worked on a number of project in recent times, but instead of talking about it, why don't you see it for yourself?</p>
         <div>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
+          <a href="https://github.com/TheWatife/rootwork-week-01" target="_blank">Rootwork Repository</a>
+          <a href="https://github.com/TheWatife/rootwork-week-01/pull/1" target="_blank">Github Practice</a>
+          <a href="https://github.com/TheWatife/rootwork-week-01/pull/3" target="_blank">Loops and Array Practice</a>
         </div>
         
       </section>
       <hr>
-      <section>
+      <section id="education">
         <h2>
           My Education
         </h2>
@@ -111,7 +113,7 @@ But do others consider it one? How does that concern me?</p>
         </p>
       </section>
       <hr>
-      <section>
+      <section id="contact">
         <h3>Do you want to contact me? Why?</h3>
         <p>Anyway, you can fill the form below and I'll decode if I want to get to know you</p>
 <form action="submit">
@@ -140,12 +142,13 @@ But do others consider it one? How does that concern me?</p>
       <label for="hole">To know more about the hellhole called OAU</label>
     </p>
   </fieldset>
-  <label for="message">Convince me to responf to you</label>
+  <label for="message">Convince me to respond to you</label>
   <textarea name="message" id="message" cols="7" rows="5"></textarea>
   <br>
+  <button type="submit">Submit</button>
 </form>
       </section>
     </main>
-    <footer></footer>
+    <footer><p>&copy; Copyright TheWatife 2026.</p></footer>
   </body>
 </html>
