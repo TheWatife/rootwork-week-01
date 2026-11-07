@@ -47,3 +47,5 @@ Problem 10
 Problem: The about section heading is a h3
 Fix: Changed the about section heading to a h2
 Why: So the html file can have a consistent heading tag in all sections
+
+PS: I'm not sure if I'm to add a club-image of my own
