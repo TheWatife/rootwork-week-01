@@ -147,6 +147,7 @@ footer {
 @media (max-width: 380px) {
   body {
     margin: 1% 5%;
+    line-height: 1.5;
   }
   nav {
     display: block;
@@ -163,5 +164,18 @@ footer {
   .link {
     flex: 0 0 33%;
     box-sizing: border-box;
+  }
+  .project-links {
+    flex-direction: column;
+    row-gap: 1.05rem;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .project-link {
+    color: deeppink;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 7px 20px;
+    box-shadow: 2px 5px 5px steelblue;
   }
 }
