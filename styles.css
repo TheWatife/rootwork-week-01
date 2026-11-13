@@ -108,12 +108,15 @@ footer {
 }
 
 @media (max-width: 768px) {
-  body {
-    width: 100%;
-  }
   .container {
-    display: grid;
-    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+  main {
+    padding-right: 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
   }
   #about {
     grid-area: 1/1/2/2;
@@ -130,11 +133,35 @@ footer {
   #contact {
     grid-area: 5/1/6/2;
   }
-
+  .form-button {
+    font-size: 1.05rem;
+  }
   .school-image {
     margin-top: 5px;
     width: 100px;
     max-width: 100%;
     height: 100px;
+  }
+}
+
+@media (max-width: 380px) {
+  body {
+    margin: 1% 5%;
+  }
+  nav {
+    display: block;
+    text-align: center;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .link {
+    flex: 0 0 33%;
+    box-sizing: border-box;
   }
 }
