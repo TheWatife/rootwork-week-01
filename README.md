@@ -90,5 +90,26 @@ This project talks about me. It introduces me with my dislikes and my place of s
 It also consists of a page that summarizes everything about me.
 I used h1 to clearly specify what the project is about, that way, at first glance, an idea is had.
 I also used div to group the projects I listed out
-And br tags to create breaks in my explanantions and increase white space.
+And br tags to create breaks in my explanations and increase white space.
 No AI was used in this project.
+
+Week 6 Learning Check
+
+1. When would you choose Flexbox instead of Grid?
+   Ans: I will use flexbox instead of grid when I want the items in a container to go in a single direction i.e one-dimensional.
+
+2. What does box-sizing: border-box change?
+   Ans: box-sizing:border-box keeps the width of a box constant no matter the left/right padding added to it, i.e it shrinks the text size to accommodate the padding.
+
+3. What is the difference between margin and padding?
+   Ans: Margin is the space between the border and the outside content (what is outside the border) while padding is the space between the border and in inner content (what the border encloses)
+
+4. What does a media query do?
+   Ans: Media query allows for a different set for stylings at a particular width.
+
+5. Why is max-width: 100% useful for images?
+   Ans: It allows images to shrink to fit smaller containers.
+
+6. Mention one CSS behaviour from the videos that initially
+   confused you and explain how you understand it now?
+   Ans: box-sizing: border-box was foreign to me and after trying it out, it was still strange, but I checked online and I now understand that it maintains the width of of the container.
