@@ -113,3 +113,20 @@ Week 6 Learning Check
 6. Mention one CSS behaviour from the videos that initially
    confused you and explain how you understand it now?
    Ans: box-sizing: border-box was foreign to me and after trying it out, it was still strange, but I checked online and I now understand that it maintains the width of of the container.
+
+Decision Designs
+I made the nav bar a flex box so I could align them every which way.
+I made the aside element have a red text so it won't be easily overlooked.
+I made the submit button's background white so it doesn't static and unresponsive to users (Improve users experience)
+
+Flexbox vs Grid
+I used flex in my nav as i wanted it in one direction while I used grid in my overall layout (main) as I wanted a 2-dimensional layout where my form could be by the side
+
+Responsive behaviour
+In desktop, the form is to the right (using grid) but is at the bottom of the page in mobile.
+
+Hardest CSS problem
+The hardest CSS problem for me happened when I was scaling down to tablet mode as I wanted the third project i had to span the entire width of the other two. I didn't use flexbox as they shared the same class name. It made me learn about the nth child.
+
+AI Disclosure
+I used AI when scaling to tablet, I used it to find out how my third item in a flexbox could span the entire width of the other two. I accepted the use of nth-child and also calc()
