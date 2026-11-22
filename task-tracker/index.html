@@ -4,14 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task tracker</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>My To-Do List</h1>
     <form>
       <label for="task">Enter an Task:</label>
       <input type="text" id="task" placeholder="Complete Assignment" />
       <button type="submit">Add task</button>
     </form>
-
+    <div class="filter">
+      <button type="button" data-filter="all" class="show">All</button>
+      <button type="button" data-filter="active" class="show">Active</button>
+      <button type="button" data-filter="completed" class="show">
+        Completed
+      </button>
+    </div>
     <ul></ul>
     <script src="index.js"></script>
   </body>
