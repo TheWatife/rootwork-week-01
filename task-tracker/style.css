@@ -16,3 +16,10 @@ li {
   border-radius: 15px;
   padding: 7px 15px;
 }
+
+@media (max-width: 375px) {
+  label {
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+}
