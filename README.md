@@ -99,7 +99,7 @@ Week 6 Learning Check
    Ans: I will use flexbox instead of grid when I want the items in a container to go in a single direction i.e one-dimensional.
 
 2. What does box-sizing: border-box change?
-   Ans: box-sizing:border-box keeps the width of a box constant no matter the left/right padding added to it, i.e it shrinks the text size to accommodate the padding.
+   Ans: box-sizing:border-box keeps the width of a box constant no matter the left/right padding added to it, i.e it shrinks the contents to accommodate the padding.
 
 3. What is the difference between margin and padding?
    Ans: Margin is the space between the border and the outside content (what is outside the border) while padding is the space between the border and in inner content (what the border encloses)
